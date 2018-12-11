@@ -1,0 +1,425 @@
+html {
+    font-family: "Lato","Playfair Display","Raleway";
+    min-width:540px;
+    -webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+
+.mainImageSlider {
+    position:absolute;
+    margin: 0;
+    left: 0;
+    top: 14.5%;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
+.mainImageSlider a{
+    text-decoration: none;
+    color: black;
+}
+
+#slideLeft {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 40%;
+    background-color: rgb(150, 140, 140);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#slideRight {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 40%;
+    background-color: rgb(150, 140, 140);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headerImportantLinks {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 60%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.headerImportantLinks td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px 0px 60px;
+}
+
+.headerImportantLinks a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#governorBlock {
+    width: 25%;
+    padding: 0px 20px;
+}
+
+.aboutUniversity {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 65%;
+    text-align: center;
+}
+
+.aboutUniversity a {
+    text-decoration: none;
+    color: black;
+}
+
+#universityDescription {
+    padding: 20px;
+    text-align: center;
+}
+
+#readMoreButton {
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px;
+	background-color: rgb(55, 99, 132);  
+    border-radius: 4px;
+}
+
+.mlsuByNumbers {
+    position: absolute;
+    margin: 0;
+    top: 140%;
+    left: 0;
+    width: 100%;   
+    text-align: center;     
+}
+
+.mlsuByNumbers table {
+    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#numberCircle {
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin-left: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    line-height: 160%;
+}
+
+.notifications {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 200%;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(230, 230, 230);
+}
+
+.notifications table {
+    text-align: center;
+}
+
+#notificationHead {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+legend {
+    background-color: rgb(245, 207, 148);
+    color: rgb(55, 99, 132);
+    width: 30%;
+    margin-left: 5%;
+    margin-top: -20%;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    text-align: center;
+}
+
+#notificationBlock {
+    border: 2px solid white;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 20px;
+    font-size: 22px;
+}
+
+#notificationContent {
+    width: 25%;
+    padding: 50px 60px 10px 60px;
+}
+
+#navNotification {
+    border: 3px solid grey;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+#leftNav {
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+#rightNav {
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.departments {
+    position: absolute;
+    margin: 0;
+    top: 265%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.departments table {
+    text-align: center;
+}
+
+#scienceDepartmentOverlay {
+    position: absolute;
+    margin: 0;
+    top: 40.7%;
+    left: 4.9%;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+}
+
+#scienceDepartmentOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#scienceDepartmentOverlay:hover span {
+    font-size: 28px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#commerceDepartmentOverlay {
+    position: absolute;
+    margin: 0;
+    top: 40.7%;
+    left: 29.7%;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+}
+
+#commerceDepartmentOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#commerceDepartmentOverlay:hover span {
+    font-size: 28px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#humanitiesDepartmentOverlay {
+    position: absolute;
+    margin: 0;
+    top: 40.7%;
+    left: 54.6%;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+}
+
+#humanitiesDepartmentOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#humanitiesDepartmentOverlay:hover span {
+    font-size: 28px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#lawDepartmentOverlay {
+    position: absolute;
+    margin: 0;
+    top: 40.7%;
+    left: 79.5%;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+}
+
+#lawDepartmentOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#lawDepartmentOverlay:hover span {
+    font-size: 28px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.gallery {
+    position: absolute;
+    margin: 0;
+    top: 323%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(230, 230, 230);
+}
+
+.gallery h1 {
+    font-size: 80px;
+}
+
+.gallery table {
+    text-align: center;
+}
+
+#galleryBackground {
+    /*clip-path: polygon(0 0, 100% 0, 75% 100%, -25% 100%);*/
+    transform: skew(340deg);
+    overflow: hidden;
+}
+
+#galleryImage {
+    transform: skew(20deg);
+    margin-left: -100%;
+    width: 300%;
+}
+
+#galleryImageOverlay {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 28px;
+    transform: skew(20deg);
+}
+
+#galleryImageOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#galleryImageOverlay:hover span {
+    font-size: 32px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#galleryVideo {
+    transform: skew(20deg);
+    margin-left: -100%;
+    width: 300%;
+}
+
+#galleryVideoOverlay {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 28px;
+    transform: skew(20deg);
+}
+
+#galleryVideoOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#galleryVideoOverlay:hover span {
+    font-size: 32px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#galleryVirtualTour {
+    transform: skew(20deg);
+    margin-left: -30%;
+    width: 300%;
+}
+
+#galleryVirtualTourOverlay {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 28px;
+    transform: skew(20deg);
+}
+
+#galleryVirtualTourOverlay:hover img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#galleryVirtualTourOverlay:hover span {
+    font-size: 32px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#footerHead {
+    font-size: 20px;
+}
+
+#footerImportantLinks {
+    line-height: 150%;
+}
+
+#footerAddress {
+    line-height: 120%;
+}
+
+#footerLinks {
+    line-height: 130%;
+}
+
+#footerLinks a{
+    text-decoration: none;
+}
+
+#aboutUs {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

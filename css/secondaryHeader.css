@@ -1,0 +1,122 @@
+.secondaryHeader {
+    width: 100%;
+    height: 10.5%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    color: white;
+    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148)); 
+    font-family: 'Raleway', sans-serif;
+	z-index: 10;
+}
+
+.secondaryHeader a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.secondaryHeader tr {
+    color: white;
+    text-align: right;
+}
+
+.searchDialog {
+    position: fixed;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    text-align: center;
+    display: none;
+	font-family: "Raleway";
+}
+
+.searchDialog h1{
+    color: white;
+    position: fixed;
+    margin: 0;
+    top: 20%;
+    left: 42%;
+    font-size: 70px;
+}
+
+.searchDialog i {
+    color: white;
+    font-size: 30px;
+}
+
+#clearButton {
+    position: fixed;
+    margin: 0;
+    top: 49.2%;
+    left: 66.7%;
+    color: white;
+}
+
+#searchButton {
+    position: fixed;
+    margin: 0;
+    top: 49.3%;
+    left: 30.3%;
+    z-index: 5;
+}
+
+.searchDialog button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.searchDialog button:hover {
+    cursor: pointer;
+}
+
+#searchBox {
+    position: fixed;
+    margin: 0;
+    top: 48%;
+    left: 30%;
+    width: 40%;
+    height: 50px;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    /*border-bottom: 2px solid white;*/
+    outline: none;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+
+#searchBox:focus {
+    outline: none;
+}
+
+#searchResult {
+    display: none;
+    position: fixed;
+    margin: 0;
+    top: 56%;
+    left: 30%;
+    width: 40%;
+}
+
+#navbarLinks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 65px;
+	padding-top: 5px;
+}
+
+#searchText {
+    position: fixed;
+    margin: 0;
+    top: 11;
+    right: 10;
+}
