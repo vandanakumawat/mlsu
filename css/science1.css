@@ -1,3 +1,7 @@
+html {
+	font-family: Raleway;
+}
+
 .main{
 height:70%; 
 margin-top:200px;
@@ -71,9 +75,15 @@ left: 0;
 }
 
 .text {
-  color: white;
-  font-size: 30px;
-  padding: 16px 32px 16px 32px;
-  text-align:center;
-  border: solid white 2px;
+	color: white;
+	font-size: 25px;
+	height: 180px;
+	width: 200px;
+	text-align: center;
+	border: solid white 2px;
+	vertical-align: middle;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }

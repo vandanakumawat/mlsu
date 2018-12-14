@@ -397,29 +397,3 @@ legend {
     font-size: 32px;
     transition: all 0.3s ease-in-out 0s;
 }
-
-#footerHead {
-    font-size: 20px;
-}
-
-#footerImportantLinks {
-    line-height: 150%;
-}
-
-#footerAddress {
-    line-height: 120%;
-}
-
-#footerLinks {
-    line-height: 130%;
-}
-
-#footerLinks a{
-    text-decoration: none;
-}
-
-#aboutUs {
-    background-color: black;
-    color: white;
-    text-align: center;
-}

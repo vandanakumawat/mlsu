@@ -1,0 +1,34 @@
+.footer {
+	background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+}
+
+#footerImportantLinks a {
+	text-decoration: none;
+	color: black;
+}
+
+#footerHead {
+    font-size: 22px;
+}
+
+#footerImportantLinks {
+    line-height: 150%;
+}
+
+#footerAddress {
+    line-height: 120%;
+}
+
+#footerLinks {
+    line-height: 130%;
+}
+
+#footerLinks a{
+    text-decoration: none;
+}
+
+#aboutUs {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
