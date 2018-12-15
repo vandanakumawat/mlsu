@@ -222,7 +222,7 @@ window.addEventListener("scroll", myfunc);
 
     <div class="departments">
 	<br/><br/>
-        <h1> <i> Jo Tirthika kahe </i> </h1>
+        <h1> <i>Departments</i> </h1>
    <br/>
         <table width="100%">
             <tr>

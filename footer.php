@@ -12,24 +12,24 @@ function footer() {
 
             <tr>
                 <td id="footerImportantLinks" width="15%" rowspan="2">
-                    <a href="#"> Digital India </a> <br>
-                    <a href="#"> UGC </a> <br>
-                    <a href="#"> AICTE </a> <br>
-                    <a href="#"> Sakshat </a> <br>
-                    <a href="#"> DCE, Rajasthan </a> <br>
-                    <a href="#"> NATS </a> <br>
-                    <a href="#"> IUMS Portal </a> <br>
+                    <a href="http://www.digitalindia.gov.in/"> Digital India </a> <br>
+                    <a href="https://www.ugc.ac.in/"> UGC </a> <br>
+                    <a href="https://www.aicte-india.org/"> AICTE </a> <br>
+                    <a href="http://www.sakshat.ac.in/"> Sakshat </a> <br>
+                    <a href="http://www.hte.rajasthan.gov.in/"> DCE, Rajasthan </a> <br>
+                    <a href="http://www.mhrdnats.gov.in/"> NATS </a> <br>
+                    <a href="https://iums.mlsuportal.in/"> IUMS Portal </a> <br>
                     <a href="#"> SFAB Empanelment </a>
                 </td>
 
                 <td id="footerImportantLinks" width="20%" rowspan="2">
-                    <a href="#"> Raj Bhawan </a> <br>
-                    <a href="#"> NMEICT </a> <br>
-                    <a href="#"> Govt of Rajasthan </a> <br>
-                    <a href="#"> MHRD </a> <br>
-                    <a href="#"> DST, New Delhi </a> <br>
-                    <a href="#"> DST, Jaipur </a> <br>
-                    <a href="#"> Vidya Lakshmi Portal </a> <br>
+                    <a href="http://rajbhawan.rajasthan.gov.in/content/rajbhawan/en.html"> Raj Bhawan </a> <br>
+                    <a href="http://mhrd.gov.in/technology-enabled-learning-0"> NMEICT </a> <br>
+                    <a href="https://rajasthan.gov.in/Pages/default.aspx"> Govt of Rajasthan </a> <br>
+                    <a href="http://mhrd.gov.in/"> MHRD </a> <br>
+                    <a href="http://www.dst.gov.in/"> DST, New Delhi </a> <br>
+                    <a href="http://dst.rajasthan.gov.in/content/dst-gov/en/home.html"> DST, Jaipur </a> <br>
+                    <a href="http://vidhyalakshmi.co.in/"> Vidya Lakshmi Portal </a> <br>
                     <a href="#"> University Recruitment </a> <br>
                 </td>
 
@@ -39,7 +39,7 @@ function footer() {
                     &nbsp;&nbsp;&nbsp;EPABX: 0294-2470198 / 2471035 / 2471969 <br>
                     &nbsp;&nbsp;&nbsp;Fax: +91-294-2471150 <br>
                     &nbsp;&nbsp;&nbsp;Email: registrar@mlsu.ac.in <br>
-                    &nbsp;&nbsp;&nbsp;GSTIN: 08AAAJM1548D1ZE <br> 
+                    &nbsp;&nbsp;&nbsp;<a href="pdf/gst.pdf" style="text-decoration:none;color:black">GSTIN: 08AAAJM1548D1ZE </a><br> 
                 </td>
 
                 <td colspan="2">
@@ -59,21 +59,21 @@ function footer() {
                     <a href="#"> 
                         <img id="contactYoutube" onmouseover="document.getElementById('contactYoutube').src='images/contactYoutubeHover.png'" onmouseleave="document.getElementById('contactYoutube').src='images/contactYoutube.png'" src="images/contactYoutube.png" alt="Y" height="30px" width="30px"></a>
                     &nbsp;&nbsp;&nbsp;
-                    <a href="#"> 
+                    <a href="https://twitter.com/mlsuniversity"> 
                         <img id="contactTwitter" onmouseover="document.getElementById('contactTwitter').src='images/contactTwitterHover.png'" onmouseleave="document.getElementById('contactTwitter').src='images/contactTwitter.png'" src="images/contactTwitter.png" alt="T" height="30px" width="30px"></a>
                     &nbsp;&nbsp;&nbsp;
-                    <a href="#"> 
+                    <a href="https://www.facebook.com/mohanlalsukhadiauniversityudaipur/"> 
                         <img id="contatcFacebook" onmouseover="document.getElementById('contatcFacebook').src='images/contatcFacebookHover.png'" onmouseleave="document.getElementById('contatcFacebook').src='images/contatcFacebook.png'" src="images/contatcFacebook.png" alt="F" height="30px" width="30px"></a>
                     </span>
                     <br>
-                    Privacy Policy | Disclaimer | Terms of Use | Nodal Officer: Dr. Avinash Panwar
+                    <a href="#" style="color:black">Privacy Policy </a>|<a href="#" style="color:black"> Disclaimer</a> | <a href="#" style="color:black">Terms of Use</a> |Nodal Officer: Dr. Avinash Panwar
                 
                 </td>
             </tr>
 
             <tr>
-                <td id="aboutUs" colspan="4" style="background:black;text-align:center;color:white">
-                    This Website was made by <a href="javascript:void(0)" onclick="alert(' Ashrut \n Siddharth \n Tirthika \n Vandana')"> our students </a>.
+                <td id="aboutUs" colspan="4" style="background:black;text-align:center;color:white;" >
+                    This Website was made by <a href="javascript:void(0)" style="text-decoration:none"onclick="alert(' Ashrut Sharma \n Siddharth Surelia \n Tirthika Bandi \n Vandana Kumawat')"> <i>Our Students</i> </a>
                 </td>
             </tr>
         </table>

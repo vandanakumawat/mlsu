@@ -27,7 +27,7 @@ secondaryHeader();
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//code.jquery.com/jquery-1.9.1.js""></script>
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
 <script>
 
 $(document).ready(function() {
@@ -93,7 +93,7 @@ $(document).ready(function() {
 
         <td width="80%">
             <div id="loadingContainer" style="height:100%; width:100%; overflow-y: scroll;">
-                a
+                
             </div>
         </td>
     </tr>

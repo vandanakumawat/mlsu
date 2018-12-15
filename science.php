@@ -8,7 +8,8 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 
 <html>
-<table width="100%" cellpadding="20px" class="main">
+<div style="background-color: rgb(245, 245, 245); position:absolute; margin:0; top:11%; left:0; width:100%;"> 
+<table style="font-family: Raleway" width="100%" cellpadding="20px" class="main">
    <tr width='20px'>
 		<td width='350px' rowspan='4'>  
 		<table id="main1" border="2px" cellspacing="0">
@@ -43,109 +44,109 @@
 		</table>
 	</td>
 	 
-	<td width='250px' height='250px'> <a href='#'>
+	<td width='250px' height='250px'> 
 		<div class="container" >
-		<img src="images/sliderBackground0.JPG" alt="science" class="image"></a>
+		<img src="images/sliderBackground0.JPG" alt="science" class="image">
 		<div  class="middle">
-			<div  class="text">Department <br> of <br> Bio-Technology</div>
+			<div  class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Bio-Technology</a></div>
 		</div>
       </div>
 	</td>
 	
-	<td width='250px' height='250px'> <a href='#'>
+	<td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Botany</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Botany</a></div>
       </div>
       </div>
 	</td>
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Chemistry</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Chemistry</a></div>
       </div>
       </div>
 	  </td>
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" height="100%" class="image"width="100%" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" height="100%" class="image"width="100%" >
 		<div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Environmental Sciences</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Environmental Sciences</a></div>
       </div>
       </div>
 	  </td>
   </tr>
    
    <tr width='20px'>
-      <td width='250px' height='250px'><a href='#'>
+      <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Computer Science</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Computer Science</a></div>
       </div>
       </div>
 	  </td>
 	  
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" >
 	   <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Geology</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Geology</a></div>
       </div>
       </div>
 	  </td>
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image"></a>
+	  <img src="images/sliderBackground0.JPG" alt="science"  class="image">
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Industrial Chemistry</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Industrial Chemistry</a></div>
       </div>
       </div>
 	  </td>
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Maths & Statistics</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Maths & Statistics</a></div>
       </div>
       </div>
 	  </td>
    </tr>
    
    <tr width='20px'>
-      <td width='250px' height='250px'><a href='#'>
+      <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Microbiology</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Microbiology</a></div>
       </div>
       </div>
 	  </td>
 	  
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Pharmacy</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Pharmacy</a></div>
       </div>
       </div>
 	  </td>
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image" >
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Physics</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Physics</a></div>
       </div>
       </div>
 	  </td>
 	  
-	  <td width='250px' height='250px'><a href='#'>
+	  <td width='250px' height='250px'>
 	  <div class="container" >
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image"></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image">
 	  <div  class="middle" >
-	    <div border="2px" class="text">Department <br> of <br> Polymer Science</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Polymer Science</a></div>
       </div>
       </div>
 	  </td>
@@ -153,11 +154,11 @@
    </tr>
    
    <tr width='20px'>
-      <td width='250px' height='250px'><a href='#'>
+      <td width='250px' height='250px'>
 	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image"></a>
+	  <img src="images/sliderBackground0.JPG" alt="science" class="image">
 	  <div  class="middle">
-	    <div border="2px" class="text">Department <br> of <br> Zoology</div>
+	    <div border="2px" class="text"><a href='#' style="text-decoration:none;color:white">Department <br> of <br> Zoology</a></div>
       </div>
       </div>
 	  </td>
@@ -167,6 +168,7 @@
 	  <td ></td>
    </tr>
 </table>
+</div>
 </html>
 <?php
         footer();
