@@ -1,10 +1,19 @@
+<?php
+require("database.php");
+
+$sql0 = "SELECT totalVisitors FROM WebsiteInformation";
+$result = mysqli_query($connection, $sql0);
+$row = mysqli_fetch_array($result);
+
+$_SESSION['totalVisitors'] = $row['totalVisitors'] + 1;
+
+$sql1 = "UPDATE WebsiteInformation SET totalVisitors = '".$_SESSION['totalVisitors']."' ";
+mysqli_query($connection, $sql1);
+
+?>
+
 <script>
 
-if(screen.width < 700){
-    window.location.href = "m/home.php";
-}
-else{
-    window.location.href = "home.php";
-}
+window.location.href = "home.php";
 
 </script>

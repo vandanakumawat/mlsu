@@ -1,5 +1,6 @@
 <?php
 function footer() {
+require("database.php");
 ?>
 	<link type="text/css" rel="stylesheet" href="css/footer.css">
     <div class="footer">
@@ -39,7 +40,7 @@ function footer() {
                     &nbsp;&nbsp;&nbsp;EPABX: 0294-2470198 / 2471035 / 2471969 <br>
                     &nbsp;&nbsp;&nbsp;Fax: +91-294-2471150 <br>
                     &nbsp;&nbsp;&nbsp;Email: registrar@mlsu.ac.in <br>
-                    &nbsp;&nbsp;&nbsp;<a href="pdf/gst.pdf" style="text-decoration:none;color:black">GSTIN: 08AAAJM1548D1ZE </a><br> 
+                    &nbsp;&nbsp;&nbsp;<a href="pdf/GST.pdf" target="blank" style="text-decoration:none;color:black">GSTIN: 08AAAJM1548D1ZE </a><br> 
                 </td>
 
                 <td colspan="2">
@@ -49,7 +50,7 @@ function footer() {
 
             <tr>
                 <td id="footerLinks" colspan="3" >
-                    Last Update on: 06/11/2018 | Visitors: 00000001 
+                    Last Update on: 06/11/2018 | Visitors: <?php echo $_SESSION['totalVisitors']; ?> 
 
                     <span style="float:right">
                     <!--a href="#"> <img src="images/contatcFacebook.png" alt="G" height="50px" width="50px"> </a-->
@@ -66,7 +67,7 @@ function footer() {
                         <img id="contatcFacebook" onmouseover="document.getElementById('contatcFacebook').src='images/contatcFacebookHover.png'" onmouseleave="document.getElementById('contatcFacebook').src='images/contatcFacebook.png'" src="images/contatcFacebook.png" alt="F" height="30px" width="30px"></a>
                     </span>
                     <br>
-                    <a href="#" style="color:black">Privacy Policy </a>|<a href="#" style="color:black"> Disclaimer</a> | <a href="#" style="color:black">Terms of Use</a> |Nodal Officer: Dr. Avinash Panwar
+                    <a href="#" style="color:black">Privacy Policy </a>|<a href="#" style="color:black"> Disclaimer</a> | <a href="#" style="color:black">Terms of Use</a> | Nodal Officer: Dr. Avinash Panwar
                 
                 </td>
             </tr>

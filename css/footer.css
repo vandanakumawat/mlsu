@@ -1,5 +1,6 @@
 .footer {
-	background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+    font-family: Raleway;
 }
 
 #footerImportantLinks a {
@@ -31,5 +32,5 @@
     background-color: black;
     color: white;
     text-align: center;
-	min-width:100%;
+    min-width:100%;
 }
