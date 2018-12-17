@@ -48,6 +48,17 @@
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
+
+@media screen and (max-width:950px){
+    .departmentsList {
+        display:none;
+    }
+
+    #loadingContainer {
+        width: 100%;
+    }
+
+}
 /* optional: show position indicator in red 
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
