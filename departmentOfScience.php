@@ -11,61 +11,61 @@
 <table id="loaded" width="100%" style="text-align: center;">
     <tr>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
-        </td>
-    </tr>
-
-    <tr>
-        <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
-        </td>
-        <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
-        </td>
-        <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
     </tr>
 
     <tr>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
     </tr>
 
     <tr>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
+        </td>
+        <td>
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
+        </td>
+        <td>
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
     </tr>
     
     <tr>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
         <td>
-            <img src="images/commerce.jpg" height="225px" width="225px">
+            <img src="images/sliderBackground0.jpg" height="175px" width="175px">
         </td>
     </tr>
 </table>
