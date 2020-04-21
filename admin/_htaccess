@@ -1,0 +1,19 @@
+RewriteEngine on
+
+<IfModule mod_rewrite.c>	
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+
+ErrorDocument 404 /404error.php
+
+
+RewriteCond %{HTTP_HOST} ^beintelligent\.co\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.beintelligent\.co\.in$
+RewriteRule ^Beintelligent\/?$ "http\:\/\/www\.beintelligent\.co\.in\/" [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+

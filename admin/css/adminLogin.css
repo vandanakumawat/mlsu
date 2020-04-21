@@ -1,0 +1,10 @@
+#adminLogin table {
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width: 800px) {
+    #adminLogin table {
+        width: 80%;
+    }
+}

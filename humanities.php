@@ -1,131 +1,92 @@
-<?php
- require("secondaryHeader.php");
- require("footer.php");
- secondaryHeader();
-?>
-
-<link rel="stylesheet" type = "text/css" href="css/humanities1.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 
 <html>
-<table width="100%" cellpadding="20px" class="main">
-   <tr width='20px'>
-      <td width='300px' rowspan='4'>  
-	  <table id="main1" border="2px" cellspacing="0">
-	    <tr>
-		  <td id="head">Departments</td>
-		</tr>
-		<tr>
-		  <td id="head1"><a href='science.php' style="text-decoration:none">Departments of Science</a></td>
-		</tr>
-		<tr>
-		<td id="head1"><a href='commerce.php' style="text-decoration:none">Departments of Commerce</a></td>
-        </tr>
-		<tr>
-		<td id="head1"><a href='management.php' style="text-decoration:none">Departments of Management</a></td>
-		</tr>
-		<tr>
-		  <td id="head1"><a href='education.php'style="text-decoration:none">Departments of Education</a></td>
-		</tr>
-		<tr>
-		  <td id="head1"><a href='law.php'style="text-decoration:none">Departments of Law</a></td>
-	    </tr>
-		<tr>
-		  <td id="head1"><a href='humanities.php' style="text-decoration:none">Departments of Humanities </a></td>
-		</tr>
-		<tr>
-		<tr>
-		  <td id="head1"><a href='social.php' style="text-decoration:none">Department of Social Science</a></td>
-		</tr>
-		<tr>
-		  <td id="head1"><a href='otherdep.php' style="text-decoration:none">Other Departments</a></td>
-		</tr>
-	</table>
-	</td>
-	 
-	  <td width='250px' height='200px'> <a href='#'>
-	  <div class="container" >
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image"></a>
-	  <div  class="middle">
-	    <div  class="text">Department of English</div>
-      </div>
-      </div>
-	  </td>
-	  <td width='250px' height='200px'> <a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science" class="image" ></a>
-	  <div  class="middle">
-	    <div border="2px" class="text">	Department of Hindi</div>
-      </div>
-      </div>
-	  </td>
-	  
-	  <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div border="2px" class="text">	Department of History</div>
-      </div>
-      </div>
-	  </td>
-	  
-	  <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image"></a>
-		<div  class="middle">
-	    <div border="2px" class="text">	Department of Jainology & Prakrit</div>
-      </div>
-      </div>
-	  </td>
-	  
-  </tr>
-   
-   <tr width='20px'>
-      <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div  class="text">	Department of  Phillosophy</div>
-      </div>
-      </div>
-	  </td>
-      <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div  class="text">	Department of Rajasthani</div>
-      </div>
-      </div>
-	  </td>
-      <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div  class="text">	Department of  Sanskrit</div>
-      </div>
-      </div>
-	  </td>
-      <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div  class="text">	Department of Urdu </div>
-      </div>
-      </div>
-	</tr>
-      <td width='250px' height='200px'><a href='#'>
-	  <div class="container">
-	  <img src="images/sliderBackground0.JPG" alt="science"  class="image" ></a>
-	  <div  class="middle">
-	    <div class="text">	Department of Visual Arts</div>
-      </div>
-      </div>
-	 </tr>
-	 </td>
-   
-   </table>
+  <head>
+    <title>Deparments Of Humanities</title>
+    <meta name="keywords" content="english, hindi, history, philosophy, jainology, prakrit, sanskrit, rajasthani, urdu, visual, art, arts">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" type="text/css" href="css/department.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script>
+
+$(document).ready(function() {
+    $("#loadingContainer").load("departmentofVisual.php");
+});
+
+function loadDepartment(departmentName) {
+    $("#loadingContainer").load(departmentName, function() {
+        //alert(departmentName);
+    });
+}
+
+</script>
+ </head>
+<body style='background: #E9E9E9'>
+	 <div class='container-fluid' valign='top' style="background-image:linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));height:17%;">
+	 	<div class='row' style='width: 100%'>
+	 		<div class='col-md'>
+	 			<img src="images/logo.png" style='height: 60%;width: 50%;margin-top:20px;'>
+	 		</div>
+	 		<div class='col-md' style='height: 100%;width:0%;margin-left: -24%'>
+				
+					 			
+	 		</div>
+	 	</div>
+	</div>
+	 	<div class="row">
+	 		<div class='col-md'>
+	 		  <table  height='75%' style="width: 45%" cellpadding="10" id="sideNavigationColumn" align='left' cellspacing="0">
+				 	<tr>
+                    <td id="listname"><b>Deparments Of Humanities</b></td>
+                </tr>
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofEnglish.php')" style="text-decoration: none;color: black">Department of English</a> </td>
+                </tr>
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofHindi.php')" style="text-decoration: none;color: black">      
+                       Department of Hindi</a> </td>
+                </tr>
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofHistory.php')" style="text-decoration: none;color: black">Department of History</a> </td>
+                </tr>
+                <tr>            
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofJainology.php')" style="text-decoration: none;color:black" >Department of Jainlogy & Prakrit</a> </td>
+                </tr>
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofPhilosophy.php')" style="text-decoration: none;color:black">Department of Philosophy</a> </td>
+                </tr>
+
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofRajasthani.php')" style="text-decoration: none;color:black">Department of Rajasthani</a> </td>
+                </tr>
+
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofSanskrit.php')" style="text-decoration: none;color:black">Department of Sanskrit</a> </td>
+                </tr>
+
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofUrdu.php')" style="text-decoration: none;color:black">Department of Urdu</a> </td>
+                </tr>
+                <tr>
+                    <td id='listname1'> <a href="javascript:void(0)" onclick="loadDepartment('departmentofVisual.php')" style="text-decoration: none;color:black">Department of Visual Arts</a> </td>
+                </tr>
+            </table>
+	 		</div>
+	 		<div class='col-md' style="margin-left: 2.5%">
+	 			<div id="loadingContainer" >
+	 			   
+				</div>	
+	 	    </div>
+	 	</div>
+	 	<div class='row' style="margin-top: 0px">
+	 		<div class="col-md">
+	 		  	
+	 		</div>
+	 	</div>
+  </div>
+</body>
 </html>
-<?php
-        footer();
-    ?>
-   

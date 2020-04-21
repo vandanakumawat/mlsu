@@ -1,0 +1,187 @@
+#primaryHeader {
+    background-image: linear-gradient(to right, rgba(55, 99, 132, 0.65), rgba(245, 207, 148, 0.65));
+    background-image: url("../images/sliderBackground0.jpg");
+    background-image: linear-gradient(to right, rgba(55, 99, 132, 0.65), rgba(245, 207, 148, 0.65)), url("../images/sliderBackground0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: 'Raleway', sans-serif;
+    /* display: none; */
+}
+
+#scrollPrimaryHeader {
+    display: none;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0; 
+    right: 0;
+    z-index: 20;
+    font-family: 'Raleway', sans-serif;
+}
+
+#topLinks a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#topLinks {
+    color: white;
+    font-weight: bold;
+}
+
+#topExtraLinks {
+    text-align: right;
+    line-height: 30px;
+}
+
+#topExtraLinks a {
+    font-family: 10px;
+}
+
+#redColorBlind {
+    color: red;
+    background-color: red;
+}
+
+#greenColorBlind {
+    color: green;
+    background-color: green;
+}
+
+#blueColorBlind {
+    color: blue;
+    background-color: blue;
+}
+
+#upperNavBar {
+    text-align: right;
+    line-height: 35px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+#upperNavBar a:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+#lowerNavBar {
+    text-align: right;
+    text-decoration: none;
+    z-index: 10;
+}
+
+#lowerNavBar a:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+#slideLeft {
+    text-align: left;
+    font-size: 80px;
+    line-height: 400%;
+}
+
+#slideLeft a {
+    color: white;
+    text-decoration: none;
+}
+
+#slideRight {
+    text-align: right;
+    font-size: 80px;
+    line-height: 400%;
+}
+
+#slideRight a {
+    color: white;
+    text-decoration: none;
+}
+
+#searchDialog {
+    display: none;
+}
+
+#scrollTopBar {
+    background-color: black;
+}
+
+#searchButtonSmall {
+    text-align: right;
+}
+
+#scrollTopNavBar {
+    height: 35px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+#scrollTopNavBar a {
+    color: black;
+}
+
+#scrollNavItem {
+    text-align: center;
+    line-height: 200%;
+    z-index: 10;
+}
+
+#scrollNavItem a {
+    text-decoration: none;
+    z-index: 10;
+}
+
+#scrollNavItem a:hover {
+    border-bottom: 2px solid rgba(55, 99, 132, 0.65);
+    box-shadow: 0 8px 6px -6px rgba(55, 99, 132, 0.65);
+}
+
+#responsiveMenu {
+    width: 25px;
+    display: none;
+    padding-top: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+#menuBar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    #topLinks {
+        display: none;
+    }
+
+    #topImage {
+        width: 350px;
+        height: 85px;
+    }
+
+    #responsiveMenu {
+        display: inline-block;
+    }
+
+    #searchButtonSmall {
+        display: none;
+    }
+
+    #slideLeft {
+        line-height: 300%;
+    }
+
+    #slideRight {
+        line-height: 300%;
+    }
+
+    #scrollTopNavBar {
+        display: none;
+    }
+}

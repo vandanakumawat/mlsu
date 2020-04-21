@@ -7,7 +7,6 @@
     left: 0;
     height: 100%;
     width: 100%;
-    display: none;
     font-family: Raleway;
 }
 
@@ -17,41 +16,100 @@
     font-size: 15px;
 }
 
-#aboutUsLinksContainer {
+#closeButton {
+    text-align: right;
+}
+
+#closeButton a {
+    color: black;
+}
+
+#screenReaderContainer {
     display: none;
 }
 
-#aboutUsLinks {
+#screenReaderLinks {
     position: relative;
     margin: 0;
-    top: 25%;
-    left: 20%;
-    height: 50%;
-    width: 60%;
+    top: 30%;
+    left: 0;
+    height: 35%;
+    width: 100%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#academicsLinksContainer {
+    display: none; 
 }
 
 #academicsLinks {
     position: relative;
     margin: 0;
     top: 20%;
-    left: 5%;
-    height: 70%;
-    width: 90%;
+    left: 0;
+    height: 72%;
+    width: 100%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#administrationLinksContainer {
+    display: none;
+}
+
+#administrationLinks {
+    position: relative;
+    margin: 0;
+    top: 30%;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color: white;
+}
+
+#facultyLinksContainer {
+    display: none;
+}
+
+#facultyLinks {
+    position: relative;
+    margin: 0;
+    top: 20%;
+    left: 0;
+    height: 72%;
+    width: 100%;
+    background-color: white;
+}
+
+#studentsLinksContainer {
+    display: none;
+}
+
+#studentsLinks {
+    position: relative;
+    margin: 0;
+    top: 30%;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color: white;
+}
+
+#mediaLinksContainer {
+    display: none;
 }
 
 #mediaLinks {
     position: relative;
     margin: 0;
     top: 30%;
-    left: 40%;
-    height: 30%;
-    width: 20%;
+    left: 0;
+    height: 35%;
+    width: 100%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#helplineLinksContainer {
+    display: none;
 }
 
 #helplineLinks {
@@ -59,30 +117,67 @@
     margin: 0;
     top: 30%;
     left: 40%;
-    height: 15%;
+    height: 35%;
     width: 20%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#affiliatedCollegesLinksContainer {
+    display: none;
 }
 
 #affiliatedCollegesLinks {
     position: relative;
     margin: 0;
     top: 30%;
-    left: 40%;
-    height: 30%;
-    width: 20%;
+    left: 0;
+    height: 35%;
+    width: 100%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#affiliatedCollegesLinks div {
+    padding: 1px;
+}
+
+#contactUsLinksContainer {
+    display: none;
 }
 
 #contactUsLinks {
     position: relative;
     margin: 0;
     top: 30%;
-    left: 40%;
-    height: 30%;
-    width: 20%;
+    left: 0;
+    height: 35%;
+    width: 100%;
     background-color: white;
-    border-radius: 10px;
+}
+
+#contactUsLinks div {
+    padding: 1px;
+}
+
+#aboutUsLinksContainer {
+    display: none;
+}
+
+#aboutUsLinks {
+    position: relative;
+    margin: 0;
+    top: 30%;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color: white;
+}
+
+.linkClicked {
+    border-bottom: 2px solid white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+.scrollLinkClicked {
+    border-bottom: 2px solid rgba(55, 99, 132, 0.65);
+    box-shadow: 0 8px 6px -6px rgba(55, 99, 132, 0.65);
 }

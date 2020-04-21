@@ -7,7 +7,7 @@ function slideLeft() {
         count = totalSlides;
     else
         count--;
-    slide.style.backgroundImage = "url(images/sliderBackground"+count+".jpg)";  
+    slide.style.backgroundImage = "linear-gradient(to right, rgba(55, 99, 132, 0.65), rgba(245, 207, 148, 0.65)), url(images/sliderBackground"+count+".jpg)";   
 }
 
 function slideRight() {
@@ -15,15 +15,15 @@ function slideRight() {
         count = 0;
     else
         count++;
-    slide.style.backgroundImage = "url(images/sliderBackground"+count+".jpg)";  
+    slide.style.backgroundImage = "linear-gradient(to right, rgba(55, 99, 132, 0.65), rgba(245, 207, 148, 0.65)), url(images/sliderBackground"+count+".jpg)";  
 }
 
 window.onload = function() {
-    slide = document.getElementById("headerWithoutScroll");
+    slide = document.getElementById("primaryHeader");
     count = 1;
     
     setInterval( function() {
-        slide.style.backgroundImage = "url(images/sliderBackground"+count+".jpg)";  
+        slide.style.backgroundImage = "linear-gradient(to right, rgba(55, 99, 132, 0.65), rgba(245, 207, 148, 0.65)), url(images/sliderBackground"+count+".jpg)";  
         if(count < totalSlides)
             count++;
         else

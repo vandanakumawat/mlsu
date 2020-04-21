@@ -1,9 +1,11 @@
 function search() {
     var searchTerm = document.getElementById("searchBox").value;
     searchTerm = encodeURIComponent(searchTerm.trim());
+    
+    document.getElementById("searchResult").style.display = "block";
+    document.getElementById("searchResult").innerHTML = "<img src='images/searching.gif' height='50px' width='50px'>";
 
     $("#searchResult").load("search.php?searchTerm="+searchTerm);
-    document.getElementById("searchResult").style.display = "block";
     document.getElementById("searchBox").focus();
 }
 

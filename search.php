@@ -1,21 +1,12 @@
 <?php
 
-//if(isset($_POST['searchTerm'])){
+if(isset($_GET['searchTerm'])){
     echo "<script> var searchTerms = '".$_GET['searchTerm']."'; searchTerms = searchTerms.split(' '); </script>";
 
     $files = array();
 
-    if($fh = fopen("files.txt", "r")){
-        $i=0;
-
-        while(!feof($fh)){
-            $files[$i] = trim(fgets($fh));
-            str_replace("\n","",$files[$i]);
-            $i++;
-        }
-
-        fclose($fh);
-    }
+    $tempStr = file_get_contents("indexFiles.json");
+    $files = json_decode($tempStr);
 
     echo "<script> var files = []; </script>";
 
@@ -23,19 +14,28 @@
     for($i=0; $i<$no_of_files; $i++){
         echo "<script> files[".$i."] = '".$files[$i]."'; </script>";
     }
-/*}
-else{
-    header("location:homepage.php");
-}*/
-?>
 
-<script type="text/javascript" src="javascript/sessvars.js"></script>
+    $tempStr = file_get_contents("indexParents.json");
+    $parentFiles = json_decode($tempStr);
+
+    echo "<script> var parentFiles = []; </script>";
+
+    $no_of_files = sizeof($parentFiles);
+    for($i=0; $i<$no_of_files; $i++){
+        echo "<script> parentFiles[".$i."] = '".$parentFiles[$i]."'; </script>";
+    }
+}
+else{
+    header("location:home.php");
+}
+?>
 
 <script>
 
 var pageScore = [];     // individual page score
 var pageTitle = [];     // Titles of the selected pages
 var pageURL = [];       // Urls of the selected pages
+var pageIndex = [];     // Index number of the selected pages
 
 function filterSearch(page) {       // filter out all the zero scoring pages
     var i = page;
@@ -45,6 +45,7 @@ function filterSearch(page) {       // filter out all the zero scoring pages
             pageScore.splice(i,1);
             pageTitle.splice(i,1);
             pageURL.splice(i,1);
+            pageIndex.splice(i,1);
         }
     }
 
@@ -56,14 +57,17 @@ function swap(i, j) {                       // swap function for sorting
     var tempScore = pageScore[i];
     var tempTitle = pageTitle[i];
     var tempURL = pageURL[i];
+    var tempIndex = pageIndex[i];
 
     pageScore[i] = pageScore[j];
     pageTitle[i] = pageTitle[j];
     pageURL[i] = pageURL[j];
+    pageIndex[i] = pageIndex[j];
 
     pageScore[j] = tempScore;
     pageTitle[j] = tempTitle;
     pageURL[j] = tempURL;
+    pageIndex[j] = tempIndex;
 }
      
 function partition(pivot, left, right) {    // partition function for sorting
@@ -144,6 +148,7 @@ function loadXMLDoc() {                     // load each page to check their sco
         pageScore[page] = 0;
         pageTitle[page] = "";
         pageURL[page] = "";
+        pageIndex[page] = page;
         xhttp.open("GET", files[page], false); //POST takes more time than GET
         xhttp.send();
     }
@@ -159,7 +164,7 @@ if(pageTitle.length < 1) {
 }
 else {
     for(var i=0; i<5 && i<pageTitle.length; i++) {
-        document.getElementById("resultTable").innerHTML += "<tr> <td> <a style='padding-right: 100%' href='"+pageURL[i]+"'> "+pageTitle[i]+" </a> </td> </tr>";
+        document.getElementById("resultTable").innerHTML += "<tr> <td> <a style='padding-right: 100%' href='"+parentFiles[pageIndex[i]]+"?pageName="+pageURL[i]+"'> "+pageTitle[i]+" </a> </td> </tr>";
     }
 }
 

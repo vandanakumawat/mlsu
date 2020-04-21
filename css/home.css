@@ -1,399 +1,446 @@
 html {
-    font-family: "Lato","Playfair Display","Raleway";
-    min-width:540px;
-    -webkit-touch-callout:none;
-	-webkit-user-select:none;
-	-khtml-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
+    background-color: #fff;
+    font-family: "Raleway";
+}
+/* Universal CSS */
+body {
+    font-family: "Raleway";
+    font-size: 1.3em;
+    letter-spacing: 0.04rem;
+    margin:0;
 }
 
-.mainImageSlider {
-    position:absolute;
-    margin: 0;
-    left: 0;
-    top: 14.5%;
-    width:100%;
-    height: 100%;
+.container-fluid {
+    padding: 0 0;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+/* Important Links Blackbar */
+#headerImportantLinks {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
-.mainImageSlider a{
+#headerImportantLinks a {
+    letter-spacing: normal;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: "Raleway";
 }
 
-#slideLeft {
-    position: absolute;
-    margin: 0;
-    left: 0;
-    top: 40%;
-    background-color: rgb(150, 140, 140);
-    font-size: 40px;
-    font-weight: bold;
-}
-
-#slideRight {
-    position: absolute;
-    margin: 0;
-    right: 0;
-    top: 40%;
-    background-color: rgb(150, 140, 140);
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.headerImportantLinks {
-    position: absolute;
-    margin: 0;
-    left: 0;
-    top: 60%;
+#headerResImportantLinks {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: black;
     text-align: center;
+    width: 110%;
+    margin-left: -5%;
+    display: none;
+}
+
+#headerResImportantLinks a {
+    color: white;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+/* University Description */
+#aboutUniversity {
+    font-family: "Raleway";
+}
+
+#universityDescription h1 {
+    text-align:left;
+}
+
+#aboutUs {
     background-color: black;
     color: white;
+    text-align: justify;
 }
 
-.headerImportantLinks td {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 60px 0px 60px;
-}
-
-.headerImportantLinks a {
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    font-size: 15px;
-}
-
-#governorBlock {
-    width: 25%;
-    padding: 0px 20px;
-}
-
-.aboutUniversity {
-    position: absolute;
-    margin: 0;
-    left: 0;
-    top: 65%;
+#governorBlock { 
+    font-family: "Lato";
+    padding-left: 30px;
+    letter-spacing: normal;
     text-align: center;
 }
 
-.aboutUniversity a {
+#governorBlock a {
+    color:black;
     text-decoration: none;
-    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#governorImage {
+    border: 5px solid whitesmoke;
+    box-shadow: grey 0px 0px 10px;
+}
+
+#viceChancellorImage {
+    border: 5px solid whitesmoke;
+    box-shadow: grey 0px 0px 10px;
 }
 
 #universityDescription {
-    padding: 20px;
+    padding-top: 30px;
+}
+
+#readMore {
+    width: 100%; 
     text-align: center;
+    margin-top: 10px;
 }
 
 #readMoreButton {
     font-size: 20px;
+    font-family: "Playfair Display";
+    font-style: italic;
     color: white;
-    padding: 5px 5px;
-	background-color: rgb(55, 99, 132);  
+    padding: 15px 40px;
+	background-color: rgb(53, 100, 127);  
     border-radius: 4px;
+    text-decoration: none;
 }
 
-.mlsuByNumbers {
-    position: absolute;
-    margin: 0;
-    top: 140%;
-    left: 0;
-    width: 100%;   
-    text-align: center;     
+#aboutUsMobile {
+    display: none;
+    width: 100%; 
+    text-align: center;
 }
 
-.mlsuByNumbers table {
-    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+#aboutUsMobileButton {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-style: italic;
     color: white;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    padding: 15px 40px;
+	background-color: rgb(53, 100, 127);  
+    border-radius: 4px;
+    text-decoration: none;
 }
 
-#numberCircle {
-    border: 10px solid white;
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    margin-left: 25%;
-    background-color: rgba(0, 0, 0, 0.5);
+/* MLSU By Numbers */
+#mlsuByNumbersContainer {
+    font-family: "Raleway";
+}
+
+#mlsuByNumbersContainer h1 {
+    font-family: "Playfair Display";
+}
+
+.mlsuByNumbersDesktop {
+    display: block;
+}
+
+.mlsuByNumbersTablet {
+    display: none;
+}
+
+.mlsuByNumbersMobile {
+    display: none;
+}
+
+#mlsuByNumbers h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#numbersDataContainer {
+    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+    padding-top: 20px;
+    color: white;
     font-weight: normal;
-    line-height: 160%;
+    font-size: 25px;
 }
 
-.notifications {
-    position: absolute;
-    margin: 0;
-    left: 0;
-    top: 200%;
-    text-align: center;
-    width: 100%;
-    background-color:rgb(230, 230, 230);
+#responsiveSplitter {
+    display:none;
 }
 
-.notifications table {
+#pg{
+    padding-left: 40px;
+}
+
+/* Notifications */
+#notificationsContainer {
+    background-color: rgb(230, 230, 230);
     text-align: center;
+    font-family: "Raleway";
+}
+
+#notificationsContainer h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Playfair Display";
 }
 
 #notificationHead {
-    font-size: 25px;
+    font-size: 1.8rem;
     text-align: left;
-    padding-left: 60px;
+    padding-bottom: 20px;
+    margin-left: 2rem;
 }
 
-legend {
+#dateLegend {
     background-color: rgb(245, 207, 148);
     color: rgb(55, 99, 132);
-    width: 30%;
+    width: 35%;
     margin-left: 5%;
     margin-top: -20%;
     clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
     text-align: center;
+    display: block;
 }
 
 #notificationBlock {
+    margin-top: 2.5rem;
     border: 2px solid white;
-    height: 200px;
+    height: 250px;
+    width: 250px;
     background-color: white;
     box-shadow: 2px 2px 20px;
     font-size: 22px;
 }
 
 #notificationContent {
-    width: 25%;
-    padding: 50px 60px 10px 60px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+#notificationContent a {
+    text-decoration: none;
+    color: black;
 }
 
 #navNotification {
     border: 3px solid grey;
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 30px;
     padding: 0px 10px;
     background-color: white;
 }
 
-#leftNav {
-    text-align: right;
-    padding-right: 1%;
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
-
-#rightNav {
+.navButtons {
     text-align: left;
-    padding-left: 1%;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    margin-left: 3.8rem;
 }
 
-.departments {
-    position: absolute;
-    margin: 0;
-    top: 265%;
-    left: 0;
-    width: 100%;
+/*Departments*/
+#departmentsContainer h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: "Playfair Display";
+}
+
+#departments {
     text-align: center;
 }
 
-.departments table {
-    text-align: center;
+#scienceDepartment {
+    padding-bottom: 30px;
+    padding-left: 50px;
 }
 
-#scienceDepartmentOverlay {
-    position: absolute;
-    margin: 0;
-    top: 40.7%;
-    left: 4.9%;
-    width: 200px;
-    height: 200px;
-    color: white;
-    font-size: 25px;
+#commerceDepartment {
+    padding-bottom: 30px;
 }
 
-#scienceDepartmentOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
+#humanitiesDepartment {
+    padding-bottom: 30px;
 }
 
-#scienceDepartmentOverlay:hover span {
-    font-size: 28px;
-    transition: all 0.3s ease-in-out 0s;
+#scienceDepartment:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#commerceDepartmentOverlay {
-    position: absolute;
-    margin: 0;
-    top: 40.7%;
-    left: 29.7%;
-    width: 200px;
-    height: 200px;
-    color: white;
-    font-size: 25px;
+#commerceDepartment:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#commerceDepartmentOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
+#humanitiesDepartment:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#commerceDepartmentOverlay:hover span {
-    font-size: 28px;
-    transition: all 0.3s ease-in-out 0s;
+#lawDepartment:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#humanitiesDepartmentOverlay {
-    position: absolute;
-    margin: 0;
-    top: 40.7%;
-    left: 54.6%;
-    width: 200px;
-    height: 200px;
-    color: white;
-    font-size: 25px;
-}
-
-#humanitiesDepartmentOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
-}
-
-#humanitiesDepartmentOverlay:hover span {
-    font-size: 28px;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-#lawDepartmentOverlay {
-    position: absolute;
-    margin: 0;
-    top: 40.7%;
-    left: 79.5%;
-    width: 200px;
-    height: 200px;
-    color: white;
-    font-size: 25px;
-}
-
-#lawDepartmentOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
-}
-
-#lawDepartmentOverlay:hover span {
-    font-size: 28px;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.gallery {
-    position: absolute;
-    margin: 0;
-    top: 323%;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color:rgb(230, 230, 230);
-}
-
-.gallery h1 {
-    font-size: 80px;
-}
-
-.gallery table {
-    text-align: center;
-}
-
-#galleryBackground {
-    /*clip-path: polygon(0 0, 100% 0, 75% 100%, -25% 100%);*/
-    transform: skew(340deg);
+.departmentImgWrapper {
+    width: 250px;
     overflow: hidden;
 }
 
-#galleryImage {
-    transform: skew(20deg);
-    margin-left: -100%;
-    width: 300%;
+/*Gallery*/
+#gallery {
+    text-align: center;
+    background-color:rgb(230, 230, 230);
+    padding-right: 100px;
 }
 
-#galleryImageOverlay {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 28px;
-    transform: skew(20deg);
+#gallery h1 {
+    font-size: 80px;
+    padding-top: 120px;
+    font-family: "Playfair Display";
 }
 
-#galleryImageOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
+.galleryBackground {
+    transform: skewX(-20deg);
+    overflow: hidden;
+    width:150px;
+    height: 400px;
+    float: left;
 }
 
-#galleryImageOverlay:hover span {
-    font-size: 32px;
-    transition: all 0.3s ease-in-out 0s;
+.galleryBackground img {
+    transform: skewX(20deg);
 }
 
-#galleryVideo {
-    transform: skew(20deg);
-    margin-left: -100%;
-    width: 300%;
+/* Responsive Gallery */
+#galleryContainer {
+    background-color:rgb(230, 230, 230);
+    display:none;
 }
 
-#galleryVideoOverlay {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 28px;
-    transform: skew(20deg);
+#galleryContainer h1 {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
-#galleryVideoOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
+#mobileGallery {
+    text-align: center;
 }
 
-#galleryVideoOverlay:hover span {
-    font-size: 32px;
-    transition: all 0.3s ease-in-out 0s;
+.gallerySections {
+    padding-bottom: 30px;
 }
 
-#galleryVirtualTour {
-    transform: skew(20deg);
-    margin-left: -30%;
-    width: 300%;
+.gallerySections:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#galleryVirtualTourOverlay {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 28px;
-    transform: skew(20deg);
+.galleryImgWrapper {
+    width: 250px;
+    overflow: hidden;
 }
 
-#galleryVirtualTourOverlay:hover img {
-    transform: scale(1.3);
-    transition: all 0.3s ease-in-out 0s;
+#imageGallery:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
 
-#galleryVirtualTourOverlay:hover span {
-    font-size: 32px;
-    transition: all 0.3s ease-in-out 0s;
+#videoGallery:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
 }
+
+#virtualTour:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width:1089px){
+    #responsiveSplitter {
+        display:inline;
+    }
+    
+    #gallery {
+        display: none;
+    }
+    
+    #galleryContainer {
+        display: inline;
+    }
+}
+
+@media screen and (max-width:768px){
+    #desktopOnly {
+        display: none;
+    }
+    #headerLinks {
+        display: none;
+    }
+    #governorBlock {
+        width: 100%;
+        margin-top: 50px;
+        display: inline-flex;
+    }
+
+    #headerImportantLinks {
+        display: none;
+    }
+
+    #headerResImportantLinks {
+        display: block;
+    }
+
+    .mlsuByNumbersDesktop {
+        display: none;
+    }
+
+    .mlsuByNumbersTablet {
+        display: block;
+    }
+
+    .mlsuByNumbersMobile {
+        display: none;
+    }
+
+    #notificationHead {
+        margin-left: 5rem;
+    }
+}
+
+
+/* Responsive Desktop */
+/*
+ @media screen and (max-width:1919px){
+
+
+/* Responsive Modern Phones and Tablets */
+/*
+@media screen and (max-width:1090px){
+
+
+@media screen and (max-width:870px){
+
+
+/* Responsive Old Phones */
+/*
+@media screen and (max-width:520px){

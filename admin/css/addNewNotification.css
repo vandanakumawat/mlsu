@@ -1,0 +1,14 @@
+#addNewNotification table {
+    text-align: center;
+    width: 25%;
+}
+
+#addNewNotification table th {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #addNewNotification table {
+        width: 80%;
+    }
+}

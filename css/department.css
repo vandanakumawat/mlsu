@@ -1,0 +1,69 @@
+#loadingContainer {
+    position: center;
+    margin-left:-42%;
+    margin-top: 20%;
+    right: 3%;
+    height: 40%;
+    width: 140%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+	background:#E9E9E9;
+}
+#loadingContainer::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+#listname {
+          color: rgb(55,102,129);
+          text-align: left;
+		  word-break:break-all;
+          font-size: 25px;
+          padding:2px;
+		  padding-left:4%;
+		  padding-top:7%;
+		  padding-bottom:4%;
+          font-family: Raleway;
+}
+
+#notification{
+    color:black;
+    margin-left:3px;
+	text-align:left;
+	word-break:break-all;
+    font-family: Raleway;
+}
+ #listname1{
+    color:black;
+    margin-left:20px;
+	margin-top:-10%;
+	text-align:left;
+	/* word-break:break-all; */
+    font-size: 22px;
+    font-family: Raleway;
+}
+
+#sideNavigationColumn {
+	font-size:16px;
+	width:48%;
+	margin-left:4%;
+	margin-top:7%;
+	background:white;
+  word-break: break-all;
+  border:0.5px solid #B5B5B5;
+}
+#sideNavigationColumn a:hover{
+  border-bottom: 2px solid black;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+	#sideNavigationColumn {
+		width: 80%;
+    margin-left: 10%;
+	}
+
+	#loadingContainer {
+		margin-left: 5%;
+		width: 100%;
+	}
+
+

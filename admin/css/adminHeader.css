@@ -1,0 +1,25 @@
+#adminHeader {
+    /* padding: 0; */
+    background-image: linear-gradient(to right, rgb(55, 99, 132), rgb(245, 207, 148));
+}
+
+#aboutUs {
+    font-family: "Playfair Display";
+    font-style: italic;
+    background-color: black;
+    color: rgb(188,188,188);
+    text-align: center;
+    letter-spacing: 0.02rem;
+    font-size: 1.2rem;
+    height: 55px;
+    width: 100%;
+    display: none;
+}
+
+#aboutUs a {
+    color: rgb(188,188,188);
+}
+
+#aboutUs i{
+    text-decoration: underline;
+}
